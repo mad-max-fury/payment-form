@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper{
+    display: inherit;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    width: 35%;
+    height: 98%;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow:4px 4px 3px -2px rgb(206, 205, 205), 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    width: 100%;
+    text-align:center ;
+    padding: 20px;
+    border-radius: 19px;
+    box-shadow:4px 4px 3px -2px rgb(206, 205, 205), 0px 0px 20px rgba(0, 0, 0, 0.1);
+    background-color: #145388;
+    color: white;
+    
+}
+h4{
+    padding: 10px;
+    /* border: 1px solid green; */
+    margin-left: 10px;
+    text-transform: uppercase;
+    color: #555555;
+}
+.input-group{
+    display: inherit;
+    flex-direction: column;
+    /* border: 1px solid goldenrod; */
+    width: 85%;
+    align-self: center;
+}
+
+#accountInput input{
+    width: 90%;
+    background-color: white;
+    height: 25px;
+    
+    border: 0;
+}
+[placeholder="Full Name"],[placeholder="username"],[placeholder="email"]
+{
+
+        width: 85%;
+        background-color: white;
+        padding: 18px;
+        border-radius: 19px;
+        height: 25px;
+         box-shadow:4px 4px 3px -2px rgb(206, 205, 205), 0px 0px 20px rgba(0, 0, 0, 0.1);
+        border: 0;
+        outline: 0;
+        margin: 5px;
+}
+input[ class="dob"]{
+    width: 4rem;
+    height: 2rem;
+    margin-right: 40px;
+    text-align: center;
+    outline: 0;
+    border-radius: 8px;
+    border: 0;
+    box-shadow:4px 4px 3px -2px rgb(206, 205, 205), 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+[for="b1"],[for="b2"],[id="b2"],[for="bc2"],[id="bc2"],[for="bc1"]{
+    margin-left: 40px;
+}
+.input-group h4{
+    margin-left: -25px;
+    /* border: 1px solid green; */
+    
+}
+ 
+
+input[placeholder="card number"]{
+    width: 85%;
+    height: 25px;
+    padding: 8px;
+    height: 100%;
+    border-radius: 19px;
+    border: 0;
+    padding-left: 10px;
+    box-shadow:4px 4px 3px -2px rgb(206, 205, 205), 0px 0px 20px rgba(0, 0, 0, 0.1);
+    outline: 0;
+}
+input[placeholder="Card CVC"]{
+display: flex;
+/* flex-direction: row; */
+
+ height: 35px;
+ width: 5rem;
+ text-align: center;
+ border-radius: 19px;
+ margin-left: 0px;
+ margin-top: 10px;
+ /* margin-bottom: 14px; */
+ border: 0;
+ outline: 0;
+ box-shadow:4px 4px 3px -2px rgb(206, 205, 205), 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+select{
+   
+    height: 35px;
+ width: 6rem;
+ border-radius: 19px;
+ background-color: white;
+ padding: 9px;
+ margin-left: 46px;
+ border: 0;
+ float: right;
+ margin-top: -32px;
+ outline: 0;
+ box-shadow:4px 4px 3px -2px rgb(206, 205, 205), 0px 0px 20px rgba(0, 0, 0, 0.1);
+
+}
+button[ type="submit"]{
+    /* border: 1px solid gold; */
+    height: 35px;
+    width: 10rem;
+    align-self: center;
+    background-color: #145388;
+    color: white;
+    border-radius: 19px;
+    margin-top: 10px;
+    margin-left: 90px;
+    border: 0;
+ outline: 0;
+ box-shadow:4px 4px 3px -2px rgb(206, 205, 205), 0px 0px 20px rgba(0, 0, 0, 0.1);
+
+
+}
+i{
+    color: #145388;
+}
